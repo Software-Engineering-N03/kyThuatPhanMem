@@ -1,0 +1,22 @@
+* Thành viên nhóm :
+Vũ Thị Bích Ngọc *****
+Trần Minh Tiến *****
+Bùi văn Quốc *****
+Dương Văn Ngọc *****
+Trần Văn Tuấn Anh ****
+
+*Yêu cầu chức năng của Phần mềm quản lý sản xuất:
++ Chuẩn hóa danh mục dữ liệu cho các đối tượng
++ Tổng hợp thông tin và theo dõi tiến độ cụ thể của từng đơn đặt hàng
++ Tự động lập kế hoạch sản xuất
++ Quản lý hiệu quả khâu nhập xuất kho
++ Quản lý quy trình sản xuất
+
+*Yêu cầu phi chức năng: 
++ Tính năng tự động hóa: Phần mềm cần có tính năng tự động hóa quản lý sản xuất, bao gồm tự động lập kế hoạch sản xuất và theo dõi tiến độ cụ thể của từng đơn đặt hàng.
++ Tính bảo mật: Phần mềm cần có các tính năng bảo mật tốt nhất để bảo vệ thông tin quản lý sản xuất.
++ Tính linh hoạt: Phần mềm cần có tính linh hoạt cao để hỗ trợ việc quản lý sản xuất với các đối tượng khác nhau, bao gồm khách hàng, nhà cung cấp, nguyên vật liệu, công cụ dụng cụ, sản phẩm.
++ Tính dễ sử dụng: Phần mềm cần có giao diện dễ sử dụng và thân thiện với người dùng.
++ Tính tích hợp: Phần mềm cần có tính tích hợp với các hệ thống khác, bao gồm hệ thống quản lý nhà kho, hệ thống quản lý tài chính.
++ Tính khả dụng: Phần mềm cần có tính khả dụng cao để cho phép truy cập và sử dụng mọi lúc
+
