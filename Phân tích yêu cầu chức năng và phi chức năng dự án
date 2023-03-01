@@ -9,7 +9,8 @@ Thành viên nhóm:
 	Dương Văn Ngọc ****
 
 	Trần Văn Tuấn Anh **
-	    Nguyễn Đức Quang **
+	
+	Nguyễn Đức Quang **
 Yêu cầu chức năng:
 1.Chuẩn hóa danh mục dữ liệu
 	Chuẩn  hóa danh mục dữ liệu cho quản lý thư viện, cần xác định các thực thể và quan hệ giữa chúng.
@@ -18,15 +19,15 @@ Yêu cầu chức năng:
 	Mục đích: Dùng cho tác giả đăng nhập vào hệ thống để sử dụng các tính năng của chương trình.
 	Thông tin đầu vào: Người dùng cần phải thực hiện yêu cầu của hệ thống khi muốn đăng nhập vào hệ thống.
 	Thao tác xử lý: Một bảng thông tin sẽ hiện ra hỏi người dùng đăng nhập hoặc thoát, thêm phần đăng ký nếu độc giả chưa đăng ký.
-3.Đăng nhập
+3.Đăng ký
 	Mục đích: Dùng để đăng ký tên tài khoản, mật khẩu, thông tin cá nhân, ngày làm thẻ và ngày hết hạn để thực hiện cho quá trình đăng nhập.
 	Thông tin đầu vào: Người dùng cần phải thực hiện yêu cầu của hệ thống. Ví dụ như nếu click vào chức năng đăng ký nếu chưa là thành viên.
 	Thao tác xử lý: Một bảng thông tin sẽ hiện ra giúp người dùng điền đầy đủ thông tin để đăng ký hoặc thoát.
 
 2.Quản lý sách
-Hệ thống lưu trữ thông tin chi tiết về các cuốn sách trong thư viện, bao gồm: tên sách, tác giả, số trang, năm xuất bản, nhà xuất bản, số lượng sách có sẵn.
-Mục đích: Chúng ta có thể nhập thêm, sửa, xóa thông tin sách. Khi cần có thể truy cập, tìm kiếm sách thông qua mã hay tên sách. 
-Thao tác xử lý: Khi thủ thư yêu cầu  nhập sách và danh mục  nhập sách cho nhà cung cấp để kiểm tra xem có  đủ các mặt hàng trong  đơn hàng hay không để thông báo cho bộ phận. 
+	Hệ thống lưu trữ thông tin chi tiết về các cuốn sách trong thư viện, bao gồm: tên sách, tác giả, số trang, năm xuất bản, nhà xuất bản, số lượng sách có sẵn.
+	Mục đích: Chúng ta có thể nhập thêm, sửa, xóa thông tin sách. Khi cần có thể truy cập, tìm kiếm sách thông qua mã hay tên sách. 
+	Thao tác xử lý: Khi thủ thư yêu cầu  nhập sách và danh mục  nhập sách cho nhà cung cấp để kiểm tra xem có  đủ các mặt hàng trong  đơn hàng hay không để thông báo cho bộ phận. 
 3.Quản lý thành viên
 	Hệ thống cần cho phép cấp và xóa thẻ thành viên cho người dùng, cập nhật thông tin thẻ thành viên và hiển thị thông tin chi tiết của từng thẻ.
 4.Quản lý mượn/trả sách
@@ -42,16 +43,16 @@ Thao tác xử lý: Khi thủ thư yêu cầu  nhập sách và danh mục  nh�
 	Mục đích: Giám đốc có thể bao quát được toàn bộ hệ thống của thư viện để có những phương pháp cải tiến phát triển thư viện.
 	Thông tin vào: Yêu cầu thống kê báo cáo theo hàng tháng, năm.
 	Thông tin xử lý: Hàng tháng, năm thủ thư phải thống kê lượng sách tồn, sách được mượn, sách chưa trả và loại sách được mượn nhiều nhất hoặt ít nhất.
-Thông tin ra: Báo cáo tổng kết thống kê cho từng loại sách.
+	Thông tin ra: Báo cáo tổng kết thống kê cho từng loại sách.
 10.Tìm kiếm
-Mục đích: Dùng để tìm kiếm thông tin sách có trong thư viện.
-Thông tin đầu vào: Người dùng nhập từ khóa để tìm kiếm thông tin về tất cả các loại sách có trong thư viện.
-Thông tin ra: Bảng tìm kiếm có thể giúp cho người dùng tìm kiếm sách nhanh chóng hơn.
+	Mục đích: Dùng để tìm kiếm thông tin sách có trong thư viện.
+	Thông tin đầu vào: Người dùng nhập từ khóa để tìm kiếm thông tin về tất cả các loại sách có trong thư viện.
+	Thông tin ra: Bảng tìm kiếm có thể giúp cho người dùng tìm kiếm sách nhanh chóng hơn.
 Yêu cầu phi chức năng:
-Bảo mật: Hệ thống phải đảm bảo an toàn thông tin cho người dùng và tài liệu trong thư viện.
- Hiệu suất: Hệ thống phải đảm bảo hiệu suất cao khi sử dụng, vì có nhiều người dùng truy cập vào cùng một thời điểm. 
-Dễ sử dụng: Hệ thống phải có giao diện dễ sử dụng và thân thiện với người dùng để giúp đơn giản hóa quá trình quản lý thư viện.
- Đa nền tảng: Hệ thống phải có khả năng hoạt động trên nhiều nền tảng, bao gồm desktop và các thiết bị di động. 
-Dễ dàng bảo trì và nâng cấp: Hệ thống phải có thiết kế dễ bảo trì và nâng cấp để đảm bảo tính ổn định của hệ thống.
+	Bảo mật: Hệ thống phải đảm bảo an toàn thông tin cho người dùng và tài liệu trong thư viện.
+ 	Hiệu suất: Hệ thống phải đảm bảo hiệu suất cao khi sử dụng, vì có nhiều người dùng truy cập vào cùng một thời điểm. 
+	Dễ sử dụng: Hệ thống phải có giao diện dễ sử dụng và thân thiện với người dùng để giúp đơn giản hóa quá trình quản lý thư viện.
+ 	Đa nền tảng: Hệ thống phải có khả năng hoạt động trên nhiều nền tảng, bao gồm desktop và các thiết bị di động. 
+	Dễ dàng bảo trì và nâng cấp: Hệ thống phải có thiết kế dễ bảo trì và nâng cấp để đảm bảo tính ổn định của hệ thống.
  
 
