@@ -1,0 +1,57 @@
+Bài Tập: Phân tích yêu cầu chức năng và yêu cầu phi chức năng của Dự án “ Quản lý thư viện”.
+Thành viên nhóm: 
+	Vũ Thị Bích Ngọc*****
+
+	Trần Minh Tiến ****
+
+	Bùi văn Quốc **
+
+	Dương Văn Ngọc ****
+
+	Trần Văn Tuấn Anh **
+	    Nguyễn Đức Quang **
+Yêu cầu chức năng:
+1.Chuẩn hóa danh mục dữ liệu
+	Chuẩn  hóa danh mục dữ liệu cho quản lý thư viện, cần xác định các thực thể và quan hệ giữa chúng.
+	Thiết lập và thống nhất quy tắc đặt mã cho các đối tượng: sách, thành viên, phiếu mượn, phiếu trả, đặt sách, đánh giá sách,..
+2. Đăng nhập
+	Mục đích: Dùng cho tác giả đăng nhập vào hệ thống để sử dụng các tính năng của chương trình.
+	Thông tin đầu vào: Người dùng cần phải thực hiện yêu cầu của hệ thống khi muốn đăng nhập vào hệ thống.
+	Thao tác xử lý: Một bảng thông tin sẽ hiện ra hỏi người dùng đăng nhập hoặc thoát, thêm phần đăng ký nếu độc giả chưa đăng ký.
+3.Đăng nhập
+	Mục đích: Dùng để đăng ký tên tài khoản, mật khẩu, thông tin cá nhân, ngày làm thẻ và ngày hết hạn để thực hiện cho quá trình đăng nhập.
+	Thông tin đầu vào: Người dùng cần phải thực hiện yêu cầu của hệ thống. Ví dụ như nếu click vào chức năng đăng ký nếu chưa là thành viên.
+	Thao tác xử lý: Một bảng thông tin sẽ hiện ra giúp người dùng điền đầy đủ thông tin để đăng ký hoặc thoát.
+
+2.Quản lý sách
+Hệ thống lưu trữ thông tin chi tiết về các cuốn sách trong thư viện, bao gồm: tên sách, tác giả, số trang, năm xuất bản, nhà xuất bản, số lượng sách có sẵn.
+Mục đích: Chúng ta có thể nhập thêm, sửa, xóa thông tin sách. Khi cần có thể truy cập, tìm kiếm sách thông qua mã hay tên sách. 
+Thao tác xử lý: Khi thủ thư yêu cầu  nhập sách và danh mục  nhập sách cho nhà cung cấp để kiểm tra xem có  đủ các mặt hàng trong  đơn hàng hay không để thông báo cho bộ phận. 
+3.Quản lý thành viên
+	Hệ thống cần cho phép cấp và xóa thẻ thành viên cho người dùng, cập nhật thông tin thẻ thành viên và hiển thị thông tin chi tiết của từng thẻ.
+4.Quản lý mượn/trả sách
+	Mục đích: Quản lý thông tin các loại sách được mượn, trả để đáp ứng yêu cầu người dùng.
+	Thông tin  đầu vào: Người dùng yêu cầu mượn, trả sách và gửi thông tin về cuốn sách cần mượn, trả.
+	Thao tác xử lý: Khi độc giả gửi yêu cầu mượn, trả sách, thông tin gửi đến bộ phận, và bộ phận này tìm kiếm và kiểm tra cho người dùng.
+	Thông tin đầu ra: Bộ phận  phục vụ giao phiếu mượn, trả cho người dùng bao gồm: tên, tên sách, ngày mượn, ngày trả.
+5.Quản lý nợ sách
+	Hệ thống nên quản lý thông tin về  các thành viên mượn sách chưa trả hoặc trả quá hạn, và tự động tính phí phạt cho người dùng nếu trả sách quá hạn.
+8.Quản lý hệ thống 
+	Hệ thống nên hỗ trợ  quản lý tài khoản người dùng và phân quyền truy cập cho từng nhân viên của thư viện.
+9.Thống kê và báo cáo
+	Mục đích: Giám đốc có thể bao quát được toàn bộ hệ thống của thư viện để có những phương pháp cải tiến phát triển thư viện.
+	Thông tin vào: Yêu cầu thống kê báo cáo theo hàng tháng, năm.
+	Thông tin xử lý: Hàng tháng, năm thủ thư phải thống kê lượng sách tồn, sách được mượn, sách chưa trả và loại sách được mượn nhiều nhất hoặt ít nhất.
+Thông tin ra: Báo cáo tổng kết thống kê cho từng loại sách.
+10.Tìm kiếm
+Mục đích: Dùng để tìm kiếm thông tin sách có trong thư viện.
+Thông tin đầu vào: Người dùng nhập từ khóa để tìm kiếm thông tin về tất cả các loại sách có trong thư viện.
+Thông tin ra: Bảng tìm kiếm có thể giúp cho người dùng tìm kiếm sách nhanh chóng hơn.
+Yêu cầu phi chức năng:
+Bảo mật: Hệ thống phải đảm bảo an toàn thông tin cho người dùng và tài liệu trong thư viện.
+ Hiệu suất: Hệ thống phải đảm bảo hiệu suất cao khi sử dụng, vì có nhiều người dùng truy cập vào cùng một thời điểm. 
+Dễ sử dụng: Hệ thống phải có giao diện dễ sử dụng và thân thiện với người dùng để giúp đơn giản hóa quá trình quản lý thư viện.
+ Đa nền tảng: Hệ thống phải có khả năng hoạt động trên nhiều nền tảng, bao gồm desktop và các thiết bị di động. 
+Dễ dàng bảo trì và nâng cấp: Hệ thống phải có thiết kế dễ bảo trì và nâng cấp để đảm bảo tính ổn định của hệ thống.
+ 
+
